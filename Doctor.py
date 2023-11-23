@@ -78,6 +78,8 @@ class Doctor:
         for idx, enc in enumerate(encounters, start=1):
             print("\n")
             print(f"Encuentro {idx}:")
+            print(f"ID del paciente: {enc[1]}")
+            print(f"Fecha: {enc[2]}")
             print(f"Subjetivo: {enc[3]}")
             print(f"Objetivo: {enc[4]}")
             print(f"Diagnóstico: {enc[5]}")
